@@ -1,71 +1,19 @@
-# 👋 Hi, I'm Meenu
+## 👋 Welcome to my GitHub
 
-🎯 Data Engineer | AI Engineer | ML Enthusiast  
-📊 Passionate about turning data into actionable insights  
+I’m Meenu LNU — an AI/ML engineer and data-focused problem solver with a background in Computer Science and Information Systems from Saginaw Valley State University (SVSU).
 
----
+With 8+ years of experience across IT operations, data engineering, and enterprise application development, I enjoy building systems that don’t just work—but make data meaningful and decisions smarter.
 
-## 🚀 Projects
+🔍 What I work on:
+- Machine Learning & Predictive Systems  
+- Data Engineering & Scalable Pipelines  
+- Business Intelligence & Analytics (Power BI, Fabric)  
+- Automation & Low-Code Solutions (Power Platform)
 
-### 🚔 NYC Crime Data Analysis (GCP)
-**Problem:** Identifying high-risk crime areas from large datasets  
-**Approach:** Used BigQuery for large-scale analysis and Looker Studio for dashboards  
-**Key Insights:** Crime peaks during night hours; specific regions show consistent patterns  
-**Impact:** Supports targeted policing and resource allocation  
+💡 What drives me:
+Turning complex, messy data into clear insights and practical solutions that create real impact.
 
-**Tech Stack:** GCP, BigQuery, SQL, Looker Studio, Python  
+This space is a collection of projects from my professional work, academic journey, and curiosity-driven experiments—ranging from AI models to data pipelines and intelligent dashboards.
 
----
-
-### 🏥 Doctor Appointment Management System (AI/ML)
-**Problem:** High patient no-show rates affecting scheduling efficiency  
-**Approach:** Built ML model to predict no-shows and optimize scheduling  
-**Key Insights:** Waiting time and day-of-week impact attendance  
-**Impact:** Improved appointment utilization  
-
-**Tech Stack:** Python, Scikit-learn, Pandas, Machine Learning  
-
----
-
-### 📊 Web Data Analysis Dashboard (Power BI)
-**Problem:** Fragmented API data limiting insights  
-**Approach:** Integrated APIs and built real-time dashboards in Power BI  
-**Key Insights:** KPI tracking improves business visibility  
-**Impact:** Enables faster decision-making  
-
-**Tech Stack:** Power BI, DAX, Power Query, API Integration  
-
----
-
-### ⚙️ Automated Exception Reporting System
-**Problem:** Delayed anomaly detection in systems  
-**Approach:** Built ETL pipelines and automated reporting using Microsoft Fabric  
-**Key Insights:** Peak load times cause most anomalies  
-**Impact:** Faster issue detection and resolution  
-
-**Tech Stack:** Microsoft Fabric, OneLake, Azure DevOps, ETL  
-
----
-
-### 🌦️ Weather Data Analysis (Python – EDA)
-**Problem:** Raw weather data lacked meaningful insights  
-**Approach:** Performed EDA using Pandas and Matplotlib  
-**Key Insights:** Seasonal trends and correlations identified  
-**Impact:** Supports forecasting and planning  
-
-**Tech Stack:** Python, Pandas, Matplotlib  
-
----
-
-## 🛠 Skills
-**Languages:** Python, SQL  
-**Tools:** Power BI, BigQuery, Looker Studio, Microsoft Fabric  
-**Concepts:** Data Analysis, ETL Pipelines, Machine Learning, Data Visualization  
-
----
-
-## 📫 Connect With Me
-- LinkedIn: https://www.linkedin.com/in/fnumeenu/
-
----
-⭐ *Always open to learning and data-driven problem solving*
+🤝 I’m always open to collaborating on impactful ideas in AI, data, and automation.  
+📫 Feel free to reach out and connect with me on https://www.linkedin.com/in/fnumeenu/!

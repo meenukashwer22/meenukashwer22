@@ -53,4 +53,12 @@ Database: Google BigQuery
 Language: SQL (GoogleSQL)
 Platform: Google Cloud Console (BigQuery Studio)
 
+Dataset 
+NYC Crime Public Dataset
+
+🚀 How to Run These Queries
+Access the NYC Crime Public Dataset on GCP.
+Copy the SQL scripts from the /queries folder in this repository.
+Run them in the BigQuery SQL Editor.
+
 

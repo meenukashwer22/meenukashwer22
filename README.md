@@ -1,6 +1,6 @@
 Hi, I am Meenu Kashwer👋  Welcome to my GitHub! 
 
-I’m a Computer Science and Information Systems major based in the USA.
+I major in Computer Science and Information Systems mat Saginaw Valley State University(SVSU) School of Computer Science.
 
 I work on projects spanning data science, artificial intelligence, and machine learning across my academic studies, professional experience, and personal interests.
 

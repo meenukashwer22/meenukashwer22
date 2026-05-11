@@ -1,0 +1,56 @@
+# NYC Crime Data Analysis (BigQuery & SQL)
+
+This project explores and analyzes New York City crime data using **Google BigQuery**. It focuses on identifying high-risk areas, the most common types of crimes, and historical crime trends to provide data-driven insights.
+
+## 📊 Project Overview
+The analysis is performed on the `nyc_crime_dataset` hosted on Google Cloud Platform. By utilizing SQL (GoogleSQL), I extracted key metrics to understand the safety landscape of various NYC boroughs and areas.
+
+## 🔍 Key Insights & Queries
+
+#Preview Data
+
+SELECT *
+FROM `booming-octane-374400.nyc_crime_dataset.crime_data`
+LIMIT 1000;
+
+#Top 5 Crime Types
+SELECT Crm_Cd_Desc, COUNT(*) AS total
+FROM `booming-octane-374400.nyc_crime_dataset.crime_data`
+GROUP BY Crm_Cd_Desc
+ORDER BY total DESC
+LIMIT 5;
+
+#Crimes per Borough
+SELECT AREA_NAME, COUNT(*) AS total
+FROM `booming-octane-374400.nyc_crime_dataset.crime_data`
+GROUP BY AREA_NAME
+ORDER BY total DESC;
+
+#Crime Trends Over Years
+SELECT 'Column "date" not found in schema' AS error_info, *
+FROM `booming-octane-374400.nyc_crime_dataset.crime_data`
+LIMIT 10; 
+
+#Views or Summary Tables CREATE OR REPLACE TABLE `booming-octane-374400.nyc_crime_dataset.top_crimes_summary` AS
+SELECT Crm_Cd_Desc, COUNT(*) AS total
+FROM `booming-octane-374400.nyc_crime_dataset.crime_data`
+GROUP BY Crm_Cd_Desc
+ORDER BY total DESC;
+
+#Visualize High-Risk Areas
+SELECT AREA_NAME, SUM(Count) AS total
+FROM `booming-octane-374400.nyc_crime_dataset.crime_data`
+GROUP BY AREA_NAME
+ORDER BY total DESC;
+
+
+📈 Visualizations
+Below is the distribution of crime types analyzed in BigQuery. The peaks represent the most frequent incidents recorded in the dataset.
+![NYC Crime Visualization](crime_chart.png)
+
+🛠 Tech Stack
+Database: Google BigQuery
+Language: SQL (GoogleSQL)
+Platform: Google Cloud Console (BigQuery Studio)
+
+
